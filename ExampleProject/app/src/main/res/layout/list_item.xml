@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/image"
+        android:src="@drawable/city"/>
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/to"
+        android:layout_toEndOf="@+id/image"
+        android:layout_below="@id/from"/>
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/image" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="180dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="50dp"
+        android:layout_toEndOf="@+id/from"
+        android:text="With in city"
+        android:textColor="@color/colorOrangeDark" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="180dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/to"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="-2dp"
+        android:layout_toEndOf="@+id/to"
+        android:text="In the city"
+        android:textColor="@color/colorOrangeDark" />
+
+</RelativeLayout>

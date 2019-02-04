@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "117509294945",
+    "firebase_url": "https://followcar-5e4db.firebaseio.com",
+    "project_id": "followcar-5e4db",
+    "storage_bucket": "followcar-5e4db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117509294945:android:7704792110571b66",
+        "android_client_info": {
+          "package_name": "com.example.meow.exampleproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117509294945-phj2ku5gjjpr7suj7etrll8prllf0h69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ4hMs8pIpqleLnej_6n5W0JpXZJzxAtU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
